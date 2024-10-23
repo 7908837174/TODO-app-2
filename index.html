@@ -1,40 +1,24 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
+  <div class="kallal"> 
 <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="https://kit.fontawesome.com/c732087824.js" crossorigin="anonymous"></script>
-    <title>todo app advanced</title>
-    <link rel="stylesheet" href="style.css">
+   
+  <link rel="stylesheet" href="Todo.css">
+  <title>Todo App</title>
 </head>
 <body>
+     
+  <h1 id="main-heading">Todo App</h1>
 
-    <div class="heading">
-        <h2>TODO LIST</h2>
-      </div>
-    <div class="content"> 
-    <input id="inputfield" type="text" value="" placeholder="Plan your task">
-    <button id="add-button">Add</button>
-    <div id="list-block"></div>
+  <div class="grid-container">
+    <input id="todo-input" type="text" placeholder="Enter Todo here">
+    <input id="todo-date" type="date">
+    <button class='btn-todo' onclick="addTodo();">Add</button>
+  </div>
 
+  <div class="todo-container grid-container"></div>
+
+  <script src="Todo.js"></script>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <script src="script.js"></script>
-    
 </body>
 </html>
